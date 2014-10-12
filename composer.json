@@ -1,0 +1,24 @@
+{
+    "name": "autoloadSkeleton/src",
+    "description": "Esquelo Autoload Composer",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "Skeleton"
+    ],
+    "authors": [
+        {
+            "name": "Guilherme de Menezes",
+            "email": "gmferreir@hotmail.com"
+        }
+    ],
+    "homepage": "http://Skeleton",
+    "require": {
+        "php": ">=5.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "src\\": "",
+            "Controller\\":"src/"
+        }
+    }
+}
